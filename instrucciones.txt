@@ -1,0 +1,149 @@
+******************************************************************************
+Instalación de python
+******************************************************************************
+https://www.python.org/downloads/
+    * Se recomienda "agregar al path" (da la opción al momento la instalación)
+    * Verificar la instalación
+        + Abrir una terminal
+        + Ejecutar  python --version
+            - Devuelve 3.11.3   (ejemplo)
+
+******************************************************************************
+Instalación de Visual Studio Code
+******************************************************************************
+https://code.visualstudio.com/download
+    * Una vez instalado, se pueden instalar extensiones para visualizar de mejor manera el código. 
+
+******************************************************************************
+Instalación de Git  (opcional / recomendble)
+******************************************************************************
+https://git-scm.com/downloads
+* Verificar la instalación
+        + Abrir una terminal
+        + Ejecutar  python --version
+
+******************************************************************************
+Clonar repositorio 
+******************************************************************************
+Desde una terminal, ejecutar: 
+git clone https://github.com/franvazgom/masterClassCBV.git
+
+******************************************************************************
+Creación del entorno virtual
+******************************************************************************
+Ejecutar: python -m venv venv
+* Activar el entorno virtual
+    + Windows  .\venv\Scripts\activate
+    + MacOS / Linux   source ven/bin/activate 
+* Desactivar el entorno virtual
+    + deactivate
+
+******************************************************************************
+Instalación de librerías 
+******************************************************************************
+Ejecutar: 
+    python -m pip install --upgrade pip 
+    pip install django 
+    pip install pillow
+
+
+******************************************************************************
+Descargar un template de bootstrap
+******************************************************************************
+https://startbootstrap.com/themes
+https://startbootstrap.com/previews/modern-business
+
+Revisar el HTML: 
+    portfolio-overview.html
+
+******************************************************************************
+Descargar algunas imágenes de ejemplo
+******************************************************************************
+https://www.dreamstime.com/
+
+
+
+******************************************************************************
+Django - Creación de prooyecto y ejecución
+******************************************************************************
++ Crear el proyecto "webpersonal" 
+    django-admin startproject webpersonal
+    
+    - Verificar los archivos que fueron creados 
++ Ejecutar el servidor
+    python manage.py runserver     
+    * Para detener el servidor => <CTRL> + C 
+
+    - Verificar su funcionamiento en: 
+    http://127.0.0.1:8000/
+
++ Crear la aplicación "project"
+    cd webpersonal 
+    python manage.py startapp project 
+
+    - Verificar los archivos que fueron creados
+ 
++ Configurar el idioma y zona horaria
+    - Editar el archivo settings.py
+    LANGUAGE_CODE = 'es-mx'
+    TIME_ZONE = 'America/Mexico_City'
+    - Ejecutar el servidor
+    - Verificar su funcionamiento en: 
+    http://127.0.0.1:8000/
+    ----------------------------
+
+    ----------------------------
+
+    ----------------------------
+
+    ----------------------------
+
+
+
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+
+******************************************************************************
+
+******************************************************************************
+
+
+
