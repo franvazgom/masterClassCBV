@@ -16,7 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from project import views 
+from project.views import ProjectListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('project/', views.project_view),
+    path('project/', ProjectListView.as_view()),    
 ]
+
+from django.conf.urls.static import static
+from django.conf import settings
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
