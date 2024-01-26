@@ -6,7 +6,7 @@ https://www.python.org/downloads/
     * Verificar la instalación
         + Abrir una terminal
         + Ejecutar  python --version
-            - Devuelve 3.11.3   (ejemplo)
+            - Devuelve 3.11.5   (ejemplo)
 
 ******************************************************************************
 Instalación de Visual Studio Code
