@@ -2,11 +2,13 @@
 Instalación de python
 ******************************************************************************
 https://www.python.org/downloads/
+    *  get the standalone installer for Python 3.14.2
     * Se recomienda "agregar al path" (da la opción al momento la instalación)
     * Verificar la instalación
         + Abrir una terminal
+        + py -- list
         + Ejecutar  python --version
-            - Devuelve 3.11.3   (ejemplo)
+            - Devuelve 3.11.5   (ejemplo)
 
 ******************************************************************************
 Instalación de Visual Studio Code
